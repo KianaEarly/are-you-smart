@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" type="text/css" href="./Assets/style.css">
+    <title>JavaScript Quiz! 🤓</title>
+</head> 
+
+<body>
+
+    <div class="card" id="opener">
+       <h1> Coding Quiz Challenge! </h1>
+       <p>Try to correctly answer as many questions as possible before the 
+        time runs out. An incorrect answer results in a 10 second penalization 
+        to your time and score.</p>
+        <button id="start-button">Start!</button>
+    </div>
+
+    <div style="display: none" class="card" id="quiz">
+        <h3 id="timer"></h3>
+        <h2 id="question">
+            Question goes here
+        </h2>
+        <button class="answerbtn" id="btn1"></button>
+        <button class="answerbtn" id="btn2"></button>
+        <button class="answerbtn" id="btn3"></button>
+        <button class="answerbtn" id="btn4"></button>
+    </div>
+
+    <div style="display: none" class="card" id="score">
+        <h1>score</h1>
+        <ul>
+            <li id="userScore"></li>
+        </ul>
+        <button id="restart">Play again?</button>
+    </div>
+
+
+<script src="./Assets/script.js"></script>
+</body>
+
+
+
+
+
+</html>
+

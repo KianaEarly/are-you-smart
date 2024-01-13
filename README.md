@@ -2,7 +2,9 @@
         
 ## Description 
 A quiz to test your javascript knowledge!
-        
+
+## Screenshot
+
 ## About the Author
 name: Kiana Early
 > gitHubProfile: 

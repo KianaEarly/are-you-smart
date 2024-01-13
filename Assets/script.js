@@ -25,11 +25,17 @@ function setTime() {
     secondsLeft--;
     timeEl.textContent = secondsLeft + " seconds left until the game ends.";
 
-    if(secondsLeft === 0) {
+    if(secondsLeft === -1) {
+      secondsLeft = 0
       // Stops execution of action at set interval
+      timeEl.textContent = secondsLeft + " seconds left until the game ends.";
+
       clearInterval(timerInterval);
-      // Calls function to create and append image
-      sendMessage();
+      var initials = prompt("initials")
+    //hide quiz and show highscore and set highscore value to initials + seconds left
+    document.querySelector("#score").style="display: block"
+    document.querySelector("#quiz").style="display: none"
+    document.querySelector("#userScore").textContent = initials + ": " + secondsLeft
     }
 
   }, 1000);
@@ -94,7 +100,10 @@ function nextQuestion () {
       secondsLeft-=10 
   }
   index++
-  if(index == questions.length){
+  if(secondsLeft<0){
+    secondsLeft=0
+  }
+  if(index == questions.length || secondsLeft == 0){
     var initials = prompt("initials")
     //hide quiz and show highscore and set highscore value to initials + seconds left
     document.querySelector("#score").style="display: block"

@@ -1,4 +1,4 @@
-# are-you-smart
+# Are-You-Smart
         
 ## Description 
 A quiz to test your javascript knowledge!
@@ -6,9 +6,7 @@ A quiz to test your javascript knowledge!
 ## About the Author
 name: Kiana Early
 > gitHubProfile: 
-> [gitHub](https://github.com/KianaEarly)
-
-        
+> [gitHub](https://github.com/KianaEarly)    
         
 ## Table of Contents
 * [Installation](#installation)

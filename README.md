@@ -25,7 +25,7 @@ n/a
 n/a
         
 ### License
-![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg) 
+![GitHub license](https://img.shields.io/badge/license-javascript-blue.svg) 
 > For more information about Licenses please see:  https://choosealicense.com/
         
 ### Contributing

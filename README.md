@@ -2,6 +2,7 @@
         
 ## Description 
 A quiz to test your javascript knowledge!
+https://kianaearly.github.io/are-you-smart/ 
 
 ## Screenshot
 
